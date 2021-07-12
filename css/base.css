@@ -1,0 +1,26 @@
+.display-great{
+	display:none;
+}
+
+.display-medium{
+	display:none;
+}
+
+.display-mini{
+	display:none;
+}
+
+body {
+	background-color:#181818;
+	font-family: 'Roboto', sans-serif;
+	font-size:1.1em;
+}
+
+.menu{
+	padding-left:0;
+}
+
+.menu li{
+	display:inline;
+	list-style-type:none;
+}
