@@ -454,3 +454,11 @@ footer.politica {
 #activar:checked ~ .desplegable {
 	display: block;
 }
+
+/*MESSENGER--------------------------------------------------------------------*/
+
+#messenger {
+	width:90%;
+	margin-left:5%;
+	margin-right:5%;
+}
