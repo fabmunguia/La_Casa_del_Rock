@@ -140,7 +140,7 @@ iframe {
 #secondNavigator a {
 	width:2%;
 	padding:0.5em 1.1em;/*7px 25px*/
-	margin:.55em;/*40px*/
+	margin:.25em;/*40px*/
 	float:left;
 	display:flex;
 	justify-content:space-around;
