@@ -24,23 +24,23 @@ select.display-mini {
 
 #mainNavigator {
 	width:100%;
-	height:5.5em;
+	height:5em;
 	float:right;
 	background:linear-gradient(to bottom, #181818, red, #181818);
 }
 
 #mainNavigator ul {
-	width:77%;
+	width:80%;
 	list-style:none;
-	line-height:1.25em;/*20px*/
 	display:flex;/*Modo flexible para elementos horizontales*/
 	justify-content:space-around;/*Espaciado regular entre elementos*/
 }
 
 #mainNavigator a {
-	padding:0.2em .5em;/*7px 25px*/
+	padding:0.5em .5em;/*7px 25px*/
 	background-color:#181818;/*color del botón del menú*/
-	font-size:90%;
+	font-size:80%;
+	font-weight:bold;
 	color:#cccccc;
 	border:0.063em solid #cccccc;/*1px*/
 	border-radius:1.25em;/*20px*/
@@ -52,11 +52,10 @@ select.display-mini {
 }
 
 #mainNavigator h1 {
-	width:70%;
+	width:100%;
 	font-size:.85rem;
 	color:#FFFFFF;
-	text-align:left;
-	margin-left:1em;
+	text-align:center;
 }
 
 .clearfix {
@@ -130,8 +129,8 @@ iframe {
 
 /*MENU DE FOTOS DEL CARRUSEL-------------------------------------------------*/
 
-#secondNavigator{
-	width:100%;
+#secondNavigator {
+	background-color:green;
 }
 
 #secondNavigator li {
@@ -140,8 +139,8 @@ iframe {
 
 #secondNavigator a {
 	width:2%;
-	padding:0.3em 1.2em;/*7px 25px*/
-	margin:.25em;/*40px*/
+	padding:0.5em 1.1em;/*7px 25px*/
+	margin:.55em;/*40px*/
 	float:left;
 	display:flex;
 	justify-content:space-around;
@@ -200,6 +199,7 @@ iframe {
 	background-size:100%;
 	color: #232323;
 	text-align:left;
+	font-weight:bold;
 	line-height:1em;
 	font-size:1.4rem;
 }
@@ -210,6 +210,7 @@ iframe {
 	background-size:100%;
 	color:#181818;
 	text-align:left;
+	font-weight:bold;
 	line-height:1.2em;
 	font-size:1.4rem;
 }
@@ -220,6 +221,7 @@ iframe {
 	background-size:100%;
 	color:#181818;
 	text-align:left;
+	font-weight:bold;
 	line-height:1.2em;
 	font-size:1.4rem;
 }
@@ -230,6 +232,7 @@ iframe {
 	background-size:100%;
 	color:#181818;
 	text-align:left;
+	font-weight:bold;
 	line-height:1.2em;
 	font-size:1.4rem;
 }
@@ -240,6 +243,7 @@ iframe {
 	background-size:100%;
 	color:#181818;
 	text-align:left;
+	font-weight:bold;
 	line-height:1.2em;
 	font-size:1.4rem;;
 }
@@ -456,12 +460,4 @@ footer.politica {
 
 #activar:checked ~ .desplegable {
 	display: block;
-}
-
-/*MESSENGER--------------------------------------------------------------------*/
-
-#messenger {
-	width:90%;
-	margin-left:5%;
-	margin-right:5%;
 }
